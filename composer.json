@@ -6,7 +6,7 @@
 		"filament/forms": "^2.16",
 		"illuminate/contracts": "^9.0|^10.0",
 		"spatie/laravel-package-tools": "^1.13.0",
-		"jantinnerezo/livewire-range-slider": "^1.0.1"
+		"jantinnerezo/livewire-range-slider": "dev-main"
 	},
 	"require-dev": {
 		"laravel/pint": "^1.0",
@@ -57,5 +57,11 @@
 		}
 	},
 	"minimum-stability": "dev",
-	"prefer-stable": true
+	"prefer-stable": true,
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/vortechron/livewire-range-slider"
+		}
+	]
 }
