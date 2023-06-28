@@ -57,11 +57,5 @@
 		}
 	},
 	"minimum-stability": "dev",
-	"prefer-stable": true,
-	"repositories": [
-		{
-			"type": "vcs",
-			"url": "https://github.com/vortechron/livewire-range-slider"
-		}
-	]
+	"prefer-stable": true
 }
