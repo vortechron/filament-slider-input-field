@@ -21,24 +21,19 @@
     $range_slider_options = [
         'start' => $getState(),
         'range' => [
-            'min' =>  $min,
-            '20%' => $twenty_percent,
-            '40%' => $forty_percent,
-            '60%' => $sixty_percent,
-            '80%' => $eighty_percent,
-            'max' => $max
+            'min' => $min,
+            // '20%' => $twenty_percent,
+            // '40%' => $forty_percent,
+            // '60%' => $sixty_percent,
+            // '80%' => $eighty_percent,
+            'max' => $max,
         ],
         'connect' => [true, false],
         'behaviour' => 'tap-drag',
         'tooltips' => $getShowTooltips(),
-        'step' => floatval($getStep()),
-        'pips' => [
-            'mode' => 'range',
-            'stepped' => true,
-            'density' => 1
-        ]
+        'step' => $getStep(),
     ];
-
+    
     $field_id = str_replace('.', '-', $getId());
 @endphp
 
